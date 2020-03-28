@@ -77,43 +77,12 @@ The function also contains exception handling using Try/Except so empty searchre
 
 ´´´html
 =====¤=====
+
 Search query: 'vent på mig'
+
 Hits: 168
+
 The first title is: Vent på mig Marie
-=====¤=====
-Search query: 'ventetid'
-Hits: 328
-The first title is: Ventetid
-=====¤=====
-Search query: 'vera'
-Hits: 2609
-The first title is: Vocal refrain
-=====¤=====
-Search query: 'verden af i går'
-Hits: 2341
-The first title is: Verden af i gaar : en europæers erindringer
-=====¤=====
-Search query: 'verdens 100 farligste dyr'
-Hits: 0
-The first title is: The field title is unknown
-=====¤=====
-Search query: 'verdens 100 mærkeligste dyr'
-Hits: 0
-The first title is: The field title is unknown
-=====¤=====
-Search query: 'verdens bedste kur'
-Hits: 11
-The first title is: Verdens bedste kur : vægttab der holder
-=====¤=====
-Search query: 'verdens vinter'
-Hits: 227
-The first title is: Verdens vinter
-=====¤=====
-Search query: 'verdenshistorie'
-Hits: 1241
-The first title is: Verdenshistorie. Bind 1, Oldtiden / af Rudi Thomsen. Middelalderen
-=====¤=====
-Search query: 'verdensmusik'
-Hits: 4795
-The first title is: Verdensmusik : en tekstmosaik
+
+[...]
 ´´´
