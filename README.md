@@ -4,6 +4,8 @@ _WARNING Python noob on deck ... be gentle! :-)_
 
 I have lately been learning Python, and this is my first experiment requesting a search result from the Opensearch API.
 
+In a wish to extend my newfound, and admittedly very basic, skillset in a professinal capacity in a windows and no-admin dominated workspace, I am using the [WinPython](https://github.com/winpython/winpython) distribution on a Windows 10 environment with the [Spyder IDE](https://www.spyder-ide.org/)
+
 The goal is to be able to:
 - [x] Import data from a data file.
 - [ ] Get data from user input.
