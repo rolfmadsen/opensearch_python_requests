@@ -5,18 +5,19 @@ _WARNING Python noob on deck ... be gentle! :-)_
 I have lately been learning Python, and this is my first experiment requesting a search result from the Opensearch API.
 
 The goal is to be able to:
-[v] Import data from a data file.
-[ ] Get data from user input.
-[v] Perform requests against the Opensearch API (https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
-[v] Set a request limit.
-[v] Access response items/keys/values of an object of a collection in the search response.
-[ ] Access a number items/keys/values of a number of objects in each collection in the search response.
-[v] Move primary functions to separate libraries/modules for import when needed.
-[v] Manipulate the API response.
-[v] Display the result in the terminal.
-[ ] Put items in a database.
-[ ] Get items from a database.
-[ ] Change items in a database.
+- [x] Import data from a data file.
+- [ ] Get data from user input.
+- [x] Perform requests against the Opensearch API (https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
+- [x] Set a request limit.
+- [x] Access response items/keys/values of an object of a collection in the search response.
+- [ ] Access a number items/keys/values of a number of objects in each collection in the search response.
+- [x] Move primary functions to separate libraries/modules for import when needed.
+- [x] Manipulate the API response.
+- [x] Exception handling.
+- [x] Display the result in the terminal.
+- [ ] Put items in a database.
+- [ ] Get items from a database.
+- [ ] Change items in a database.
 
 ## index.py
 
