@@ -6,7 +6,7 @@ Lately I have been attempting to learn Python.
 
 This is the product of the first leg of that journey writing a program requesting a search result from the [Opensearch API](https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
 
-In a wish to extend my newfound, and admittedly very basic, skillset in a professinal capacity in a windows and no-admin dominated workspace, I am using the [WinPython](https://github.com/winpython/winpython) distribution on a Windows 10 environment with the [Spyder IDE](https://www.spyder-ide.org/)
+In a wish to extend my newfound, and admittedly very basic, skillset in a professinal capacity in a windows and no-admin dominated workspace, I am using the [WinPython](https://github.com/winpython/winpython), which is a portable distribution of the Python programming language for Windows, on a Windows 10 environment with the [Spyder IDE](https://www.spyder-ide.org/)
 
 The goal is to be able to:
 - [x] Import data from a data file.
