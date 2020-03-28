@@ -4,12 +4,12 @@ _WARNING Python noob on deck ... be gentle! :-)_
 
 Lately I have been attempting to learn Python.
 
-This is the product of the first leg of that journey writing a program requesting a search result from the [Opensearch API](https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
+This is the product of the first leg of the journey writing a program to request search results from the [Opensearch API](https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
 
-In a wish to extend my newfound, and admittedly very basic, skillset in a professinal capacity in a windows and no-admin dominated workspace, I am using the [WinPython](https://github.com/winpython/winpython), which is a portable distribution of the Python programming language for Windows, on a Windows 10 environment with the [Spyder IDE](https://www.spyder-ide.org/)
+In an optimistic wish to extend my newfound, and admittedly very basic, skillset in a professinal capacity in a windows and no-admin exclusive workspace, I am using the [WinPython](https://github.com/winpython/winpython), which is a portable distribution of the Python programming language for Windows, on a Windows 10 environment with the [Spyder IDE](https://www.spyder-ide.org/)
 
 The goal is to be able to:
-- [x] Import data from a data file.
+- [x] Import data from a file.
 - [ ] Get data from user input.
 - [x] Perform requests against the Opensearch API.
 - [x] Set a request limit.
@@ -25,11 +25,11 @@ The goal is to be able to:
 
 ## 1.0 index.py
 
-The index.py file is the main file and the goal is to abstract most primari functions to separat libraries/modules.
+The index.py file is the main file and the goal is to abstract most primary functions to separat libraries/modules.
 
 ### 1.1 data/mostfrequentqueries.json
 
-The mostfrequentqueries JSON file contains 10 query strings picked at random from a list of 7788 query strings that represent 50% of all user queries performed on the danish public library websites.
+The mostfrequentqueries.json file contains 10 query strings picked at random from a list of 7788 query strings that represent 50% of all user queries performed on the danish public library websites.
 
 ### 1.2 Import data from a JSON file
 
