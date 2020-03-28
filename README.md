@@ -75,9 +75,13 @@ The function also contains exception handling using Try/Except so empty searchre
 
 ## Result so far
 
-Search query: 'vent på mig'
+´´´python
+    """ # ========== * OUTPUT * ========== """
+       
+    print("=====¤=====")
+    print(f"Search query: '{query}'")
+    print(f"Hits: {hitcount}")
+    print(f"The first title is: {title}")
 
-Hits: 168
-
-The first title is: Vent på mig Marie
+´´´
 
