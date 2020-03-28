@@ -75,7 +75,7 @@ The function also contains exception handling using Try/Except so empty searchre
 
 ## Result so far
 
-´´´python
+´´´console
 =====¤=====
 Search query: 'vent på mig'
 Hits: 168
