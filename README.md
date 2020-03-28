@@ -19,15 +19,15 @@ The goal is to be able to:
 - [ ] Get items from a database.
 - [ ] Change items in a database.
 
-## index.py
+## 1.0 index.py
 
 The index.py file is the main file and the goal is to abstract most primari functions to separat libraries/modules.
 
-### data/mostfrequentqueries.json
+### 1.1 data/mostfrequentqueries.json
 
 The mostfrequentqueries JSON file contains 10 query strings picked at random from a list of 7788 query strings that represent 50% of all user queries performed on the danish public library websites.
 
-### Import data from a JSON file
+### 1.2 Import data from a JSON file
 
 Query strings are imported from the JSON file /data/mostfrequentqueries.json.
 
@@ -35,20 +35,20 @@ Nordic æ,å and å characters are encoded in UTF-8.
 
 The JSON object is deserialized using json.load() to a Python object or dictionary, which is then assigned to a variable.
 
-### For loop on each query string
+### 1.3 For loop on each query string
 
 Each query stings is looped over using a for loop.
 In each loop the Opensearch API's search operation is requested using the getsearchresult function with a query (row) as the argument.
 In the same loop the values I want to access are retrieved (hitcount + title) using the getField function with the searchresponse as the argument as well as a string containing the field I want and the index numbers of the collection, object and field.
 
-### Request limit
+### 1.4 Request limit
 
 My little program could potentialle be used to perform a high number of requests against the Opensearch API.
 Good practice is to limit requests to 1 request per second.
 
 The Time librarys Sleep() function is used to limit requests to 1 request per second.
 
-## opensearch/search.py
+## 2.0 opensearch/search.py
 
 Creating the program in a single file was soon confusing to a novice like myself. Therefore I decided to move the primary functions into separat libraries/modules. The search function was the first success in this regard.
 
@@ -57,7 +57,7 @@ The request parameters are hardcoded for now, but I plan to move them to a separ
 
 The JSON response is parsed to a Python dictionary and returned.
 
-## opensearch/fields.py
+## 3.0 opensearch/fields.py
 
 I had some trouble consistently accessing the values of the response because it just so happened that two of the ten random query strings I had selected for the mostfrequentqueries.json didn't return any searchResponse object resulting in KeyError message which blocked the for loop in the index.py file.
 
