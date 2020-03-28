@@ -76,6 +76,7 @@ The function also contains exception handling using Try/Except so empty searchre
 ## Result so far
 
 ´´´python
+    
     """ # ========== * OUTPUT * ========== """
        
     print("=====¤=====")
