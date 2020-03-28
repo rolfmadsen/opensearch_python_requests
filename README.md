@@ -75,9 +75,7 @@ The function also contains exception handling using Try/Except so empty searchre
 
 ## Result so far
 
-´´´html
-Search query: 'vent på mig' /n
-Hits: 168 /n
-The first title is: Vent på mig Marie /n
-[...] /n
-´´´
+Search query: 'vent på mig'
+Hits: 168
+The first title is: Vent på mig Marie
+
