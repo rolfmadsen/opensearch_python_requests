@@ -2,14 +2,15 @@
 
 _WARNING Python noob on deck ... be gentle! :-)_
 
-I have lately been learning Python, and this is my first experiment requesting a search result from the Opensearch API.
+Lately I have been attempting to learn Python.
+This is the product of the first leg of that journey writing a program requesting a search result from the [Opensearch API](https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
 
 In a wish to extend my newfound, and admittedly very basic, skillset in a professinal capacity in a windows and no-admin dominated workspace, I am using the [WinPython](https://github.com/winpython/winpython) distribution on a Windows 10 environment with the [Spyder IDE](https://www.spyder-ide.org/)
 
 The goal is to be able to:
 - [x] Import data from a data file.
 - [ ] Get data from user input.
-- [x] Perform requests against the Opensearch API (https://github.com/DBCDK/OpenSearch-webservice/wiki/OpenSearch-Web-Service).
+- [x] Perform requests against the Opensearch API.
 - [x] Set a request limit.
 - [x] Access response items/keys/values of an object of a collection in the search response.
 - [ ] Access a number items/keys/values of a number of objects in each collection in the search response.
