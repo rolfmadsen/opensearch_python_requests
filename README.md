@@ -163,7 +163,7 @@ Opensearch datastructure (JSON/MarcXchange)
 
 The datastructures under the Subfield level contained a mix of both dictionaries (objects) and lists (arrays).
 Accessing the underlying data differs, så I had to find out how to identify each datastructures type.
-I used the [https://github.com/rolfmadsen/opensearch_python_requests/blob/master/marcxchange_fields_from_opensearch_json_response.py#L48](isinstance() function as the test expression in an if/else condition) to access each subfield.
+I used the [isinstance() function as the test expression in an if/else condition](https://github.com/rolfmadsen/opensearch_python_requests/blob/master/marcxchange_fields_from_opensearch_json_response.py#L48) to access each subfield.
 
 ### Exception handling of empty values
 
