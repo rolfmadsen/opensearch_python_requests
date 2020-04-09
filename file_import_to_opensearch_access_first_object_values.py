@@ -12,7 +12,6 @@ from opensearch.search import getsearchresult
 from opensearch.fields import getField
 
 
-
 # ========== * JSON FILE WITH 10 QUERY STRINGS * ==========
 
 with open('data/mostfrequentqueries.json', 'r', encoding='utf-8') as f:
@@ -25,7 +24,8 @@ for row in querylist['queries']:
     query = row['query']
     #print(f"Søgestrengen er {query}")
 
-    searchResponse = getsearchresult(query)
+    objectFormat = 'dkabm'
+    searchResponse = getsearchresult(query, objectFormat)
     #print(searchResponse)
     #print("searchResponse is of the type", type(response_dict))
 
