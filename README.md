@@ -140,7 +140,7 @@ Opensearch responses are deeply nested, combining both dictionaries (objects) an
 
 I had som trouble figuring out how Python for loops handle indexes, and as it turned out I overcomplicated the issue.
 
-After initiating variables containing the path 'before' each index point Python interates over each underlying data structure.
+After [initiating variables containing the path 'before' each index point Python interates over each underlying data structure].(https://github.com/rolfmadsen/opensearch_python_requests/blob/04e281b49c6ccd17933f6771b2a5fe9d7a56f010/marcxchange_fields_from_opensearch_json_response.py#L27)
 
 Opensearch datastructure (JSON/MarcXchange)
 * searchResponse
@@ -190,7 +190,7 @@ Getting
 },
 ```
 
-I used try/except and continue to avoid printing the empty value and continuing to the next loop.
+I used ['try/except' and 'continue' to avoid printing the empty value and continuing to the next loop](https://github.com/rolfmadsen/opensearch_python_requests/blob/04e281b49c6ccd17933f6771b2a5fe9d7a56f010/marcxchange_fields_from_opensearch_json_response.py#L50).
 
 ```python
 try:
@@ -206,7 +206,7 @@ Opensearch reflects that the dataformat was created for integrated library syste
 This is evident from values like "The ¤Beatles" where the "¤" sign indicates that it should be sorted by "Beatles" instead of "The Beatles".
 I do not however want the "¤" sign exposed in the user interface
 
-I removed the "¤"-sign with .replace('¤', '')
+I removed the "¤"-sign with [.replace('¤', '')](https://github.com/rolfmadsen/opensearch_python_requests/blob/04e281b49c6ccd17933f6771b2a5fe9d7a56f010/marcxchange_fields_from_opensearch_json_response.py#L55)
 
 ### Result so far
 
