@@ -132,7 +132,7 @@ The first title is: Verdensmusik : en tekstmosaik
 ```
 ## marcxchange_fields_from_opensearch_json_response.py - Opensearch request based on a query accessing all marcXchange fields in JSON response
 
-At this point I had only been accessing a specific field in a specific manifestation (object) in a specific collection (work), så the challenge was to figure out how to parse an Opensearch response and print/return all field values in the search result.
+At this point I had only been accessing a specific field in a specific manifestation (object) in a specific collection (work), so the challenge was to figure out how to parse an Opensearch response and print/return all field values in the search result.
 
 ### For loops
 
