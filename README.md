@@ -140,7 +140,7 @@ Opensearch responses are deeply nested, combining both dictionaries (objects) an
 
 I had som trouble figuring out how Python for loops handle indexes, and as it turned out I overcomplicated the issue.
 
-After [initiating variables containing the path 'before' each index point Python interates over each underlying data structure].(https://github.com/rolfmadsen/opensearch_python_requests/blob/04e281b49c6ccd17933f6771b2a5fe9d7a56f010/marcxchange_fields_from_opensearch_json_response.py#L27)
+After [initiating variables containing the path 'before' each index point Python interates over each underlying data structure](https://github.com/rolfmadsen/opensearch_python_requests/blob/04e281b49c6ccd17933f6771b2a5fe9d7a56f010/marcxchange_fields_from_opensearch_json_response.py#L27).
 
 Opensearch datastructure (JSON/MarcXchange)
 * searchResponse
