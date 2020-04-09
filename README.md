@@ -214,7 +214,7 @@ I removed the "¤"-sign with .replace('¤', '')
 print(f" \n ===== * PID *===== \n {manifestation['primaryObjectIdentifier']['$']} \n")
 print(f"'{fieldname}*{subfieldname}':'{subfieldvalue}'")
 ```
-https://oss-services.dbc.dk/opensearch/5.2/?action=search&query=bc%3D%27%2A%27+and+facet.typecategory%3D%27film%27+and+facet.type%3D%27blu-ray%27&agency=100200&profile=test&start=1&stepValue=5&outputType=json&objectFormat=marcxchange
+https://oss-services.dbc.dk/opensearch/5.2/?action=search&query=bc%3D%27%2A%27+and+facet.typecategory%3D%27film%27+and+facet.type%3D%27blu-ray%27&agency=100200&profile=test&start=1&stepValue=1&outputType=json&objectFormat=marcxchange
 
 ```console
  ===== * PID *===== 
