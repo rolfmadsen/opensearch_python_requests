@@ -154,7 +154,7 @@ Opensearch datastructure (JSON/MarcXchange)
                 * numberOfObjects (key/value)
                 * __OBJECT (LIST/ARRAY)__
                     * collection
-                        * record (List)
+                        * record
                             * __DATAFIELD (LIST/ARRAY)__
                                 * __SUBFIELD (LIST/ARRAY)__
                                     * MarcXchange-fields (key/value)
