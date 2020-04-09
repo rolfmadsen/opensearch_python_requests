@@ -170,7 +170,7 @@ I used the isinstance() function as the test expression in an if/else condition 
 It turned out that some of the subfields didnt contain any values breaking the for loops.
 
 Expected:
-"""json
+```javascript
 {
 "$": "Anderson",
 "@code": {
@@ -178,26 +178,26 @@ Expected:
 },
 "@": "marcx"
 },
-"""
+```
 
 Getting
-"""json
+```javascript
 {
 "@code": {
 "$": "0"
 },
 "@": "marcx"
 },
-"""
+```
 
 I used try/except and continue to avoid printing the empty value and continuing to the next loop.
 
-"""python
+```python
 try:
     subfieldname = subfield['@code']['$']
 except:
     continue                     
-"""                        
+```                        
 
 ### Replace ¤ used for sorting titles alphabetically
 
