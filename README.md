@@ -130,7 +130,7 @@ Hits: 4795
 The first title is: Verdensmusik : en tekstmosaik
 
 ```
-## parse_opensearch_marcxchange_json_response.py - Opensearch request based on a query accessing all marcXchange fields in JSON response
+## 2.0 parse_opensearch_marcxchange_json_response.py - Opensearch request based on a query accessing all marcXchange fields in JSON response
 
 At this point I had only been accessing a specific field in a specific manifestation (object) in a specific collection (work), so the challenge was to figure out how to parse an Opensearch response and print/return all field values in the search result.
 
