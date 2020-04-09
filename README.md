@@ -23,7 +23,7 @@ The goal is to be able to:
 - [ ] Get items from a database.
 - [ ] Change items in a database.
 
-## 1.0 index.py Opensearch request based on JSON file with query strings
+## 1.0 load_file_request_opensearch_json_response_access_single_object.py - Opensearch request based on JSON file with query strings
 
 The index.py file is the main file and the goal is to abstract most primary functions to separat libraries/modules.
 
@@ -130,7 +130,7 @@ Hits: 4795
 The first title is: Verdensmusik : en tekstmosaik
 
 ```
-## marcxchange_fields_from_opensearch_json_response.py - Opensearch request based on a query accessing all marcXchange fields in JSON response
+## parse_opensearch_marcxchange_json_response.py - Opensearch request based on a query accessing all marcXchange fields in JSON response
 
 At this point I had only been accessing a specific field in a specific manifestation (object) in a specific collection (work), so the challenge was to figure out how to parse an Opensearch response and print/return all field values in the search result.
 
