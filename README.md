@@ -148,15 +148,15 @@ Opensearch datastructure (JSON/MarcXchange)
         * hitCount (key/value)
         * collectionCount (key/value)
         * more (key/value)
-        * SEARCHRESULT (LIST/ARRAY)
+        * __SEARCHRESULT (LIST/ARRAY)__
             * collection
                 * resultPosition (key/value)
                 * numberOfObjects (key/value)
-                * OBJECT (LIST/ARRAY)
+                * __OBJECT (LIST/ARRAY)__
                     * collection
                         * record (List)
-                            * DATAFIELD (LIST/ARRAY)
-                                * SUBFIELD (LIST/ARRAY)
+                            * __DATAFIELD (LIST/ARRAY)__
+                                * __SUBFIELD (LIST/ARRAY)__
                                     * MarcXchange-fields (key/value)
                                     
 ### Mixed dictionaries (objects) and lists (arrays)
