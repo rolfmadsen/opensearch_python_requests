@@ -322,3 +322,89 @@ https://oss-services.dbc.dk/opensearch/5.2/?action=search&query=bc%3D%27%2A%27+a
 '720*o':'Camilla Rutherford'
 '720*4':'act'
 ```
+
+## 3.0 Query opensearch marcxchange dictionary to json terminal
+
+For part three I have changed printing every field to the terminal for adding keys and values to a dictionary which is then transformed to JSON which is then printed to the terminal.
+
+*Empty dictionary*
+search_result_dictionary = {}
+
+*Nested key*
+search_result_dictionary['search_result_info'] = {}
+
+*Nested key/value*
+hitcount = search_result_info['hitCount']['$']
+search_result_dictionary['search_result_info']['hitcount'] = hitcount
+
+```python
+print(json.dumps(search_result_dictionary, indent=4, ensure_ascii=False))
+```
+
+### Example of first collections first manifestation:
+```console
+{
+    "search_result_info": {
+        "hitcount": "4773",
+        "collection_count": "10"
+    },
+    "search_result": {
+        "820010-katalog:6140793": {
+            "collection_position": "1",
+            "001*a": "6140793",
+            "001*b": "820010",
+            "001*c": "201503311314",
+            "001*d": "20150331",
+            "001*f": "a",
+            "004*r": "c",
+            "004*a": "e",
+            "006*d": "11",
+            "006*2": "b",
+            "008*t": "m",
+            "008*u": "f",
+            "008*a": "2014",
+            "008*b": "dk",
+            "008*l": "mul",
+            "008*v": "0",
+            "009*a": "m",
+            "009*g": "th",
+            "021*b": "Brugsretskategori: C+",
+            "023*b": "7340112711900",
+            "041*a": "eng",
+            "041*s": "cat",
+            "041*u": "ita",
+            "096*z": "820010",
+            "096*u": "Kun til brug på Statsbibliotekets læsesal",
+            "096*a": "DVD 27489",
+            "096*r": "a",
+            "245*a": "The Darjeeling Limited",
+            "260*a": "[Frederiksberg]",
+            "260*b": "Fox-Paramount Home Entertainment (Denmark)",
+            "260*c": "2014",
+            "300*n": "1 blu-ray disc",
+            "300*e": "blu-ray",
+            "300*l": "91 min.",
+            "504*a": "Tre amerikanske brødre, der ikke har set hinanden siden faderens død for et år siden, tager på en farverig togrejse gennem Indien for at finde sammen igen",
+            "508*a": "Tekstet for hørehæmmede på engelsk",
+            "512*a": "Produktion: Fox Searchlight Pictures (USA), Collage (USA), American Empirical Pictures (USA), 2007",
+            "517*a": "Mærkning: Tilladt for børn over 11 år",
+            "534*a": "Af indholdet: Extras",
+            "534*i": "Heri",
+            "534*t": "Hotel Chevalier",
+            "534*e": "director of photography Robert Yeoman",
+            "534*b": ". USA : American Empirical Pictures, 2005",
+            "538*a": "FP 99136278",
+            "652*m": "77.7",
+            "666*s": "familien",
+            "666*q": "Indien",
+            "666*o": "amerikanske film",
+            "700*a": "Yeoman",
+            "700*h": "Robert",
+            "700*c": "f. 1969-05-01",
+            "700*4": "cng",
+            "720*o": "Camilla Rutherford",
+            "720*4": "act"
+        }
+    }
+}
+```
