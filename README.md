@@ -14,11 +14,11 @@ The goal is to be able to:
 - [x] Perform requests against the Opensearch API.
 - [x] Set a request limit.
 - [x] Access response items/keys/values of an object of a collection in the search response.
-- [x] Access a number items/keys/values of a number of objects in each collection in the search response.
-- [x] Move primary functions to separate libraries/modules for import when needed.
-- [x] Manipulate the API response.
 - [x] Exception handling.
+- [x] Move primary functions to separate libraries/modules for import when needed.
 - [x] Display the result in the terminal.
+- [x] Access a number items/keys/values of a number of objects in each collection in the search response.
+- [x] Transform API response to dictionary and JSON.
 - [ ] Put items in a database.
 - [ ] Get items from a database.
 - [ ] Change items in a database.
@@ -338,6 +338,7 @@ search_result_dictionary['search_result_info'] = {}
 **Nested key/value**
 
 hitcount = search_result_info['hitCount']['$']
+
 search_result_dictionary['search_result_info']['hitcount'] = hitcount
 
 ```python
