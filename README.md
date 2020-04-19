@@ -327,13 +327,16 @@ https://oss-services.dbc.dk/opensearch/5.2/?action=search&query=bc%3D%27%2A%27+a
 
 For part three I have changed printing every field to the terminal for adding keys and values to a dictionary which is then transformed to JSON which is then printed to the terminal.
 
-*Empty dictionary*
+**Empty dictionary**
+
 search_result_dictionary = {}
 
-*Nested key*
+**Nested key**
+
 search_result_dictionary['search_result_info'] = {}
 
-*Nested key/value*
+**Nested key/value**
+
 hitcount = search_result_info['hitCount']['$']
 search_result_dictionary['search_result_info']['hitcount'] = hitcount
 
